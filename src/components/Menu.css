@@ -1,0 +1,20 @@
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 1em 0;
+}
+
+.menu-link {
+  display: block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: all 200ms ease-out;
+}
+
+.menu-link.active {
+  background-color: #f2f2f2;
+}
+
+.menu-link:hover {
+  background-color: #f1f1f1;
+}

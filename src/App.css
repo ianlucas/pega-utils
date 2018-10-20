@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  color: #333;
+}
+
+body,
+button,
+input {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  color: #007fff;
+}
+
+h1, h2, h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: normal;
+}
+
+.app-monospace,
+pre, code {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+p:first-of-type {
+  margin-top: 0;
+}
+
+textarea {
+  border: 1px solid #ccc;
+  border-bottom-width: 3px;
+  display: block;
+  min-height: 200px;
+  resize: vertical;
+  width: 100%;
+}
+
+textarea:focus {
+  border-color: #007fff;
+  outline: none;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-bottom-width: 3px;
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+}
+
+input:focus {
+  border-color: #007fff;
+  outline: none; 
+}
+
+button {
+  border: 1px solid #007fff;
+  border-radius: 500px;
+  background-color: #007fff;
+  color: #fff;
+  outline: none;
+  padding: 0.5em 1em;
+  transition: all 500ms;
+}
+
+button[disabled] {
+  opacity: 0.5;
+}
+
+.app-footer {
+  margin-top: 2em;
+}
+
+.app-footer button {
+  margin-right: 1em;
+}
+
+.app-joke {
+  display: none;
+}
+
+.app {
+  overflow: hidden;
+}
+
+.app-menu {
+  float: left;
+  width: 15%;
+}
+
+.app-menu:after {
+  background-color: #f2f2f2;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 15%;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.app-page {
+  float: left;
+  padding: 0 5%;
+  width: 85%;
+}
